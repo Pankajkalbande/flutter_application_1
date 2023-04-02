@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screen/addButtons.dart';
 //import 'package:flutter_application_1/screen/AddIcons.dart';
 import 'package:flutter_application_1/screen/container.dart';
 import 'package:flutter_application_1/screen/dashboard.dart';
@@ -12,7 +13,8 @@ void main() {
       // home: Dashboard(),
       // home: AddImage(),
       // home: AddIcons(),
-      home: AddContainer(),
+      // home: AddContainer(),
+      home: Button(),
     ),
   );
 }
