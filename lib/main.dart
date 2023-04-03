@@ -5,6 +5,7 @@ import 'package:flutter_application_1/screen/addButtons.dart';
 import 'package:flutter_application_1/screen/container.dart';
 import 'package:flutter_application_1/screen/dashboard.dart';
 import 'package:flutter_application_1/screen/addImage.dart';
+import 'package:flutter_application_1/screen/rowColumn.dart';
 
 void main() {
   runApp(
@@ -16,7 +17,8 @@ void main() {
       // home: AddIcons(),
       // home: AddContainer(),
       // home: Button(),
-      home: AddAppBar(),
+      // home: AddAppBar(),
+      home: AddRowColumn(),
     ),
   );
 }
