@@ -10,7 +10,7 @@ class AddImage extends StatelessWidget {
         title: const Text("Image Add"),
       ),
       body: Image.asset(
-        "assets/images/nature.jpg",
+        "assets/nature.jpg",
         height: 900.0,
         fit: BoxFit.cover,
       ),
